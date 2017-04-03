@@ -4,7 +4,7 @@ set -e
 
 # Build image using supplied ARGS
 echo "Building $IMAGE_NAME with BUILD_DATE=${BUILD_DATE} and GIT_SHA1=${GIT_SHA1}"
-docker image build \
+docker build \
     --build-arg BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ") \
     --build-arg VCS_REF=$GIT_SHA1 \
     --build-arg VERSION="1.11.70"
