@@ -1,6 +1,6 @@
 # Tags and respective `Dockerfile` links
 
-- [`1.11.70`, `1.11`, `latest` *(1.11.70/Dockerfile)*](https://github.com/nbrownuk/docker-revealjs/blob/3.4.1/Dockerfile)
+- [`1.11.72`, `1.11`, `latest` *(1.11.70/Dockerfile)*](https://github.com/nbrownuk/docker-revealjs/blob/3.4.1/Dockerfile)
 
 # What is aws-cli?
 
