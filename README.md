@@ -1,6 +1,9 @@
 # Tags and respective `Dockerfile` links
 
-- [`1.11.72`, `1.11`, `latest` *(1.11.70/Dockerfile)*](https://github.com/nbrownuk/docker-revealjs/blob/3.4.1/Dockerfile)
+- [`1.11.73`, `1.11`, `latest` *(1.11.73/Dockerfile)*](https://github.com/nbrownuk/docker-aws-cli/blob/master/Dockerfile)
+
+[![](https://images.microbadger.com/badges/image/nbrown/aws-cli.svg)](https://microbadger.com/images/nbrown/aws-cli "View on microbadger.com")
+[![](https://images.microbadger.com/badges/version/nbrown/aws-cli.svg)](https://microbadger.com/images/nbrown/aws-cli "View on microbadger.com")
 
 # What is aws-cli?
 
