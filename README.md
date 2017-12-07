@@ -1,6 +1,6 @@
 # Tags and respective `Dockerfile` links
 
-- [`1.14.4`, `1.14`, `latest` *(1.14.4/Dockerfile)*](https://github.com/nbrownuk/docker-aws-cli/blob/master/Dockerfile)
+- [`1.14.5`, `1.14`, `latest` *(1.14.5/Dockerfile)*](https://github.com/nbrownuk/docker-aws-cli/blob/master/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/nbrown/aws-cli.svg)](https://microbadger.com/images/nbrown/aws-cli "View on microbadger.com")
 [![](https://images.microbadger.com/badges/version/nbrown/aws-cli.svg)](https://microbadger.com/images/nbrown/aws-cli "View on microbadger.com")
