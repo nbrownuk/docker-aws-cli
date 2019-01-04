@@ -1,6 +1,6 @@
 # Tags and respective `Dockerfile` links
 
-- [`1.16.82`, `1.16`, `latest` *(1.16.82/Dockerfile)*](https://github.com/nbrownuk/docker-aws-cli/blob/master/Dockerfile)
+- [`1.16.83`, `1.16`, `latest` *(1.16.83/Dockerfile)*](https://github.com/nbrownuk/docker-aws-cli/blob/master/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/nbrown/aws-cli.svg)](https://microbadger.com/images/nbrown/aws-cli "View on microbadger.com")
 [![](https://images.microbadger.com/badges/version/nbrown/aws-cli.svg)](https://microbadger.com/images/nbrown/aws-cli "View on microbadger.com")
@@ -34,7 +34,7 @@ $ docker container run -it --rm -v $HOME/.aws:/home/aws/.aws nbrown/aws-cli ec2 
 **Please Note:** the user is set to `aws`, with a default UID of `1000`. If the user on the host has a different UID, the `aws` user in the container will not be able to read the mounted credentials. In this scenario, build a custom version of the image using a build argument to specify the UID;
 
 ```
-$ docker image build --build-arg UID=2000 --build-arg VERSION="1.16.829" -t aws-cli
+$ docker image build --build-arg UID=2000 --build-arg VERSION="1.16.839" -t aws-cli
 ```
 
 ## Building the image
@@ -42,7 +42,7 @@ $ docker image build --build-arg UID=2000 --build-arg VERSION="1.16.829" -t aws-
 If building the image from the Dockerfile, be sure to use a build argument to specify the version of the aws-cli to install; e.g.
 
 ```
-$ docker image build --build-arg VERSION="1.16.829" -t aws-cli
+$ docker image build --build-arg VERSION="1.16.839" -t aws-cli
 ```
 
 To find the latest version available, check the [Package Index for awscli](https://pypi.python.org/pypi/awscli)
